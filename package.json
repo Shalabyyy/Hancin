@@ -1,0 +1,22 @@
+{
+  "name": "hancin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shalabyyy/Hancin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shalabyyy/Hancin/issues"
+  },
+  "homepage": "https://github.com/Shalabyyy/Hancin#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  }
+}
