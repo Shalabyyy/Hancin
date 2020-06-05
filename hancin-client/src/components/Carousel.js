@@ -7,6 +7,7 @@ import image2 from '../media/image3.png'
 import image3 from '../media/image4.png'
 import image4 from '../media/image5.png'
 import image6 from '../media/image6.png'
+import logo from "../media/slogo.png";
 
 class Homepage extends Component {
   componentDidMount(){
