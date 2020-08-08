@@ -16,51 +16,23 @@ class Footer extends Component {
               </p>
             </div>
             <div class="col l3">
-              <h5 class="white-text">Links</h5>
-              <ul>
-                <li>
-                  <a class="grey-text text-lighten-3" href="#!">
-                    Organizatons
-                  </a>
-                </li>
-                <li>
-                  <a class="grey-text text-lighten-3" href="#!">
-                    Personal
-                  </a>
-                </li>
-                <li>
-                  <a class="grey-text text-lighten-3" href="#!">
-                    International
-                  </a>
-                </li>
-                <li>
-                  <a class="grey-text text-lighten-3" href="#!">
-                    About us
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="col l3">
               <h5 class="white-text">Social Media</h5>
-              <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-              <a href="https://www.twitter.com" class="fa fa-twitter"></a>
-              <a href="https://www.google.com" class="fa fa-google"></a>
-              <br></br>
-              <a href="#" class="fa fa-linkedin"></a>
-              <a href="#" class="fa fa-youtube"></a>
-              <a href="#" class="fa fa-rss"></a>
+              <a href="https://www.facebook.com/hancincom/" class="fa fa-facebook"></a>
+              <a href="#!" class="fa fa-twitter"></a>
+              <a href="https://www.google.com/search?client=firefox-b-d&q=Hancin+Interlock" class="fa fa-google"></a>
+
             </div>
             <div class="col l3">
               <h5 class="white-text">Contact Us</h5>
               <ul>
                 <li>
                   <p class="grey-text text-lighten-3" href="#!">
-                    Phone: 01012345678
+                    Phone: 01004910000 / 01008121674
                   </p>
                 </li>
                 <li>
                   <p class="grey-text text-lighten-3" href="#!">
-                    Email: info@hancin.com
+                    Email: hancin-concrete@gmail.com
                   </p>
                 </li>
               </ul>

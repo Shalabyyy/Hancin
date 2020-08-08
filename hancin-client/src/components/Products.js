@@ -18,6 +18,8 @@ import MassDecor from '../media/Blocks/Mass-Decor.jpeg'
 import MassHexagon from '../media/Blocks/Mass-Hexagon.jpeg'
 import MassIblock from '../media/Blocks/Mass-Iblock.jpeg'
 import MassXO from '../media/Blocks/Mass-XO.jpeg'
+import updatedXO from '../media/Blocks/X-O.jpeg'
+import MassBardora from '../media/bardora-update.jpeg'
 
 class Products extends Component {
   componentDidMount() {
@@ -51,7 +53,7 @@ class Products extends Component {
     return (
       <div class="container">
         <div class="header" id="myHeader">
-          <h2 style={{textAlign:"left"}}>Our Product Variety</h2>
+          <h2 style={{textAlign:"center"}}>Our Product Variety</h2>
         </div>
 
         <div class="row">
@@ -69,111 +71,72 @@ class Products extends Component {
                   <p class="imageText">Decor</p>
               </div>
               <div class="imageContainer">
-              <img src={fanTile} style={{width:"100%"}} />
-                  <p class="imageText">Fan Tile</p>
+              <img src={lotus} style={{width:"100%"}} />
+                  <p class="imageTextNegative">Lotus</p>
               </div>
               <div class="imageContainer">
-              <img src={fanstasia} style={{width:"100%"}} />
-                  <p class="imageText">Fantasia</p>
-              </div>
-              <div class="imageContainer">
-              <img src={hearts} style={{width:"100%"}} />
-                  <p class="imageText">Hearts</p>
-              </div>
-              <div class="imageContainer">
-              <img src={hexagon} style={{width:"100%"}} />
-                  <p class="imageTextNegative">Hexagon</p>
-              </div>
-          </div>
-          <div class="column">
-          <div class="imageContainer">
-              <img src={horusEyeTile} style={{width:"100%"}} />
-                  <p class="imageText">Horus Eye Tile</p>
+              <img src={updatedXO} style={{width:"100%"}} />
+                  <p class="imageTextNegative">X-O</p>
               </div>
               <div class="imageContainer">
               <img src={iblock} style={{width:"100%"}} />
                   <p class="imageTextNegative">I-Block</p>
               </div>
-              <div class="imageContainer">
-              <img src={lotus} style={{width:"100%"}} />
-                  <p class="imageTextNegative">Lotus</p>
-              </div>
-              <div class="imageContainer">
-              <img src={motadakhel} style={{width:"100%"}} />
-                  <p class="imageText">Motadakhel</p>
-              </div>
-              <div class="imageContainer">
-              <img src={xo} style={{width:"100%"}} />
-                  <p class="imageText">X-O</p>
-              </div>
-              <div class="imageContainer">
-              <img src={LotusMass} style={{width:"100%"}} />
-                  <p class="imageText">Lotus Blocks</p>
-              </div>
+    
           </div>
           <div class="column">
           <div class="imageContainer">
+              <img src={MassBardora} style={{width:"100%"}} />
+                  <p class="imageText">Bardora</p>
+              </div>
+              <div class="imageContainer">
               <img src={MassButterfly} style={{width:"100%"}} />
-                  <p class="imageText">Butterfly Blocks</p>
+                  <p class="imageTextNegative">Butterfly Blocks</p>
               </div>
               <div class="imageContainer">
               <img src={MassDecor} style={{width:"100%"}} />
                   <p class="imageText">Decor Blocks</p>
               </div>
               <div class="imageContainer">
-              <img src={MassHexagon} style={{width:"100%"}} />
-                  <p class="imageText">Hexagon Blocks</p>
-              </div>
-              <div class="imageContainer">
-              <img src={MassIblock} style={{width:"100%"}} />
-                  <p class="imageText">IBlocks</p>
+              <img src={LotusMass} style={{width:"100%"}} />
+                  <p class="imageText">Lotus Blocks</p>
               </div>
               <div class="imageContainer">
               <img src={MassXO} style={{width:"100%"}} />
                   <p class="imageText">X-O Blocks</p>
               </div>
               <div class="imageContainer">
-              <img src={bardora} style={{width:"100%"}} />
-                  <p class="imageText">Bardora</p>
+              <img src={MassIblock} style={{width:"100%"}} />
+                  <p class="imageTextNegative">I-Block</p>
               </div>
-              <div class="imageContainer">
-              <img src={butterfly} style={{width:"100%"}} />
-                  <p class="imageTextNegative">Butterfly</p>
-              </div>          </div>
+          </div>
           <div class="column">
-          <div class="imageContainer">
-              <img src={horusEyeTile} style={{width:"100%"}} />
-                  <p class="imageText">Horus Eye Tile</p>
-              </div>
-          
-          <div class="imageContainer">
-              <img src={lotus} style={{width:"100%"}} />
-                  <p class="imageTextNegative">Lotus</p>
-              </div>
-              <div class="imageContainer">
-              <img src={motadakhel} style={{width:"100%"}} />
-                  <p class="imageText">Motadakhel</p>
-              </div>
-              <div class="imageContainer">
-              <img src={decor} style={{width:"100%"}} />
-                  <p class="imageText">Decor</p>
-              </div>
-              <div class="imageContainer">
-              <img src={fanTile} style={{width:"100%"}} />
-                  <p class="imageText">Fan Tile</p>
-              </div>
-              <div class="imageContainer">
-              <img src={fanstasia} style={{width:"100%"}} />
-                  <p class="imageText">Fantasia</p>
-              </div>
-              <div class="imageContainer">
-              <img src={hearts} style={{width:"100%"}} />
-                  <p class="imageTextNegative">Hearts</p>
-              </div>
+         
               <div class="imageContainer">
               <img src={hexagon} style={{width:"100%"}} />
                   <p class="imageTextNegative">Hexagon</p>
               </div>
+              <div class="imageContainer">
+              <img src={horusEyeTile} style={{width:"100%"}} />
+                  <p class="imageText">Horus Eye Tile</p>
+              </div>
+           
+              
+                       </div>
+          <div class="column">
+          
+          
+          <div class="imageContainer">
+              <img src={MassHexagon} style={{width:"100%"}} />
+                  <p class="imageTextNegative">Hexagon blocks</p>
+              </div>
+              <div class="imageContainer">
+              <img src={motadakhel} style={{width:"100%", height:"240px"}} />
+                  <p class="imageText">Motadakhel</p>
+              </div>
+             
+             
+             
           </div>
         </div>
       </div>
